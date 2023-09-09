@@ -1,0 +1,102 @@
+/* Style dasar untuk navbar */
+html {
+  width: 1440px;
+  height: 1088px;
+  margin: 0 auto;
+}
+
+.reimage {
+  width: 590px;
+  height: 847px;
+  flex-shrink: 0;
+  background-color: blueviolet;
+}
+
+.navbar {
+  display: flex;
+  width: 1140px;
+  align-items: center;
+}
+
+/* Style untuk menu pertama */
+.menu.menu1 {
+  display: flex;
+  width: 199px;
+  align-items: center;
+  gap: 15px;
+  flex-shrink: 0;
+}
+
+.menu.menu1 a {
+  color: #101c45;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
+/* Style untuk menu kedua */
+.menu.menu2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  flex: 1 0 0;
+}
+
+.menu.menu2 a {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+/* Style untuk menu ketiga */
+.menu.menu3 {
+  display: flex;
+  width: 295px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 15px;
+  flex-shrink: 0;
+}
+
+ul.menu-login {
+  display: flex;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+ul .menu-login a {
+  color: #101c45;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
+ul.menu-book {
+  display: flex;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+ul .menu-book a {
+  color: #101c45;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
