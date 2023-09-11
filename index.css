@@ -100,3 +100,52 @@ ul .menu-book a {
   line-height: normal;
   text-decoration: none;
 }
+
+.container-menu {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 246px;
+}
+
+.container-menu h1 {
+  color: #101c45;
+  font-family: sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 457px;
+  padding-bottom: 15px;
+}
+
+.container-menu a {
+  color: #101c45;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  width: 457px;
+  margin-bottom: 40px;
+}
+
+.container-menu .menu-btn {
+  display: flex;
+  padding: 15px 35px;
+  align-items: flex-start;
+  gap: 8px;
+  background: #203271;
+  width: 235px;
+  height: 35px;
+}
+
+.container-menu .menu-btn .btn-menu {
+  text-align: center;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
